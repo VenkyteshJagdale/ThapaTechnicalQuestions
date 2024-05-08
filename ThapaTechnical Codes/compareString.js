@@ -30,3 +30,30 @@
 // }
 
 // console.log(output(string))
+
+
+
+
+let string = "This is javascript code by thapathechical and javascriptCommunity"
+
+let output = (string) => {
+str = string.split(" ")
+str = str.sort((a,b)=> a.length - b.length)
+console.log("🚀 ~ output ~ str:", str)
+return str.at(-1)
+}
+
+
+
+console.log(output(string))
+
+
+
+
+
+
+
+
+
+
+

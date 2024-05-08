@@ -1,18 +1,18 @@
-// missicippi   find i how mich time come
+// // missicippi   find i how mich time come
 
-let output = (word,char)=>{
-word = word.toLowerCase();
-char = char.toLowerCase();
-finalCount = word.split("").reduce((accu,currunt)=>{
-  if(currunt === char){
-    accu++
-  }
-  return accu
-},0)
-console.log(finalCount)
-}
+// let output = (word,char)=>{
+// word = word.toLowerCase();
+// char = char.toLowerCase();
+// finalCount = word.split("").reduce((accu,currunt)=>{
+//   if(currunt === char){
+//     accu++
+//   }
+//   return accu
+// },0)
+// console.log(finalCount)
+// }
 
-console.log(output("thhhihhhohhh","H"))
+// console.log(output("thhhihhhohhh","H"))
 
 
 
@@ -30,3 +30,26 @@ console.log(output("thhhihhhohhh","H"))
 // console.log(final)
 // }
 // console.log(output("Mississippi","S"))
+
+
+
+
+
+
+let word = "MiSSiSSiPpSSis"
+let char = "s"
+let output = (word,char) => {
+  word = word.toLowerCase();
+  char = char.toLowerCase();
+  finalCount = word.split("").reduce((accu,currt)=>{
+    if(currt === char){
+     accu++;
+    }
+    return accu
+  },0)
+return finalCount;
+  
+}
+
+
+console.log(output(word,char))
