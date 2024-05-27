@@ -1,14 +1,14 @@
 // find logenst word from string
 
 //1).
-// let string = "This is javascript code by thapathechical and javascriptCommunity"
-// let output=(string) =>{
-// word = string.split(" ")
-// word = word.sort((a,b)=> b.length-a.length)
-// return word[0]
-// }
+let string = "This is javascript code by thapathechical and javascriptCommunity"
+let output=(string) =>{
+word = string.split(" ")
+word = word.sort((a,b)=> b.length-a.length)
+return word[0]
+}
 
-// console.log(output(string))
+console.log(output(string))
 
 
 // 2).
@@ -34,18 +34,18 @@
 
 
 
-let string = "This is javascript code by thapathechical and javascriptCommunity"
+// let string = "This is javascript code by thapathechical and javascriptCommunity"
 
-let output = (string) => {
-str = string.split(" ")
-str = str.sort((a,b)=> a.length - b.length)
-console.log("🚀 ~ output ~ str:", str)
-return str.at(-1)
-}
+// let output = (string) => {
+// str = string.split(" ")
+// str = str.sort((a,b)=> a.length - b.length)
+// console.log("🚀 ~ output ~ str:", str)
+// return str.at(-1)
+// }
 
 
 
-console.log(output(string))
+// console.log(output(string))
 
 
 

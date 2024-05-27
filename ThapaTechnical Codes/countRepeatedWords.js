@@ -3,7 +3,8 @@
 // let output = (word,char)=>{
 // word = word.toLowerCase();
 // char = char.toLowerCase();
-// finalCount = word.split("").reduce((accu,currunt)=>{
+// finalCount = word.split("").
+reduce((accu,currunt)=>{
 //   if(currunt === char){
 //     accu++
 //   }
@@ -41,7 +42,8 @@ let char = "s"
 let output = (word,char) => {
   word = word.toLowerCase();
   char = char.toLowerCase();
-  finalCount = word.split("").reduce((accu,currt)=>{
+  finalCount = word.split("")
+  .reduce((accu,currt)=>{
     if(currt === char){
      accu++;
     }
