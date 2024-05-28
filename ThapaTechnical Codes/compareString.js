@@ -10,7 +10,6 @@
 
 // console.log(output(string))
 
-
 // 2).
 // let string = "This is javascript code by thapathechical and javascriptCommunity"
 // let output = (string)=>{
@@ -34,22 +33,28 @@
 
 
 
+// let string = "This is javascript code by thapathechical and javascriptCommunity"
+
+// let output = (string) => {
+// str = string.split(" ")
+// str = str.sort((a,b)=> a.length - b.length)
+// console.log("🚀 ~ output ~ str:", str)
+// return str.at(-1)
+// }
+
+
+
+// console.log(output(string))
+
+
 let string = "This is javascript code by thapathechical and javascriptCommunity"
-
 let output = (string) => {
-str = string.split(" ")
-str = str.sort((a,b)=> a.length - b.length)
-console.log("🚀 ~ output ~ str:", str)
-return str.at(-1)
+let str = string.toLowerCase();
+str.split(" ");
+str = str.sort((a,b)=> b.lenght -a.lenght) 
+return str[0]
 }
-
-
-
 console.log(output(string))
-
-
-
-
 
 
 
