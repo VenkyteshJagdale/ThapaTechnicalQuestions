@@ -10,7 +10,6 @@ return word[0]
 
 console.log(output(string))
 
-
 // 2).
 // let string = "This is javascript code by thapathechical and javascriptCommunity"
 // let output = (string)=>{
@@ -46,10 +45,19 @@ console.log(output(string))
 
 
 // console.log(output(string))
+<<<<<<< HEAD
+=======
 
 
-
-
+let string = "This is javascript code by thapathechical and javascriptCommunity"
+let output = (string) => {
+let str = string.toLowerCase();
+str.split(" ");
+str = str.sort((a,b)=> b.lenght -a.lenght) 
+return str[0]
+}
+console.log(output(string))
+>>>>>>> 98c7ba76ff7b351ca5051ad95b17ff884f630157
 
 
 
